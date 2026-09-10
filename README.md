@@ -1,6 +1,6 @@
 # Chanchal Tripathi — Quality Engineering Portfolio
 
-Chanchal Tripathi, Senior Quality Engineer with 11 years of experience in automation and quality engineering.
+Personal portfolio for Chanchal Tripathi, Senior Quality Engineer with 11 years of experience in automation and quality engineering.
 
 ## Portfolio highlights
 
