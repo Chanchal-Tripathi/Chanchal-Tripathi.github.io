@@ -18,4 +18,4 @@ Open `index.html` in a browser or serve the folder with any static web server.
 
 - [LinkedIn](https://www.linkedin.com/in/chanchaltripathi/)
 - [GitHub](https://github.com/Chanchal-Tripathi)
-- Email: chanchal.tripathi0@live.com
+- Email: chanchal.tripathi0@gmail.com
