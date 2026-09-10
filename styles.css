@@ -70,7 +70,7 @@ img { display: block; max-width: 100%; }
 .button.secondary { color: white; border: 1px solid rgba(255,255,255,.3); }
 .availability { display: flex; align-items: center; gap: 10px; margin-top: 29px; color: rgba(255,255,255,.66); font-size: .86rem; }
 .pulse { width: 8px; height: 8px; border-radius: 50%; background: var(--cyan); box-shadow: 0 0 0 5px rgba(66,217,203,.12); }
-.portrait-wrap { position: relative; justify-self: end; width: min(100%, 380px); }
+.portrait-wrap { position: relative; justify-self: end; width: min(100%, 300px); }
 .portrait-frame { position: relative; overflow: hidden; border-radius: 48% 48% 18px 18px; border: 1px solid rgba(255,255,255,.18); box-shadow: var(--shadow); }
 .portrait-frame::after { content: ""; position: absolute; inset: 0; box-shadow: inset 0 0 0 10px rgba(255,255,255,.05); border-radius: inherit; }
 .portrait-frame img { width: 100%; aspect-ratio: 4/5; object-fit: cover; object-position: center 38%; }
@@ -160,7 +160,7 @@ footer { padding: 27px 0; color: rgba(255,255,255,.62); background: #04111b; fon
   .nav-links a { padding: 13px 20px; }
   .nav-links .nav-cta { margin-top: 8px; text-align: center; }
   .hero { grid-template-columns: 1fr; gap: 54px; padding-top: 64px; }
-  .portrait-wrap { justify-self: center; width: min(88%, 390px); }
+  .portrait-wrap { justify-self: center; width: min(72%, 290px); }
   .metrics { grid-template-columns: repeat(2,1fr); }
   .metrics div:nth-child(2) { border-right: 0; }
   .metrics div:first-child { padding-left: 30px; }
@@ -180,6 +180,7 @@ footer { padding: 27px 0; color: rgba(255,255,255,.62); background: #04111b; fon
   .hero { min-height: auto; padding: 60px 0 74px; }
   .hero h1 { font-size: clamp(2.65rem, 13vw, 4rem); }
   .hero-summary { font-size: 1rem; }
+  .portrait-wrap { width: min(72vw, 250px); }
   .portrait-note { right: -5px; bottom: 22px; }
   .metrics { width: 100%; grid-template-columns: 1fr 1fr; }
   .metrics div { min-height: 118px; padding: 18px 15px; grid-template-columns: 1fr; gap: 7px; text-align: center; border-bottom: 1px solid rgba(255,255,255,.11); }
