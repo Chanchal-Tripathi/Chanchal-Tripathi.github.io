@@ -71,9 +71,9 @@ img { display: block; max-width: 100%; }
 .availability { display: flex; align-items: center; gap: 10px; margin-top: 29px; color: rgba(255,255,255,.66); font-size: .86rem; }
 .pulse { width: 8px; height: 8px; border-radius: 50%; background: var(--cyan); box-shadow: 0 0 0 5px rgba(66,217,203,.12); }
 .portrait-wrap { position: relative; justify-self: end; width: min(100%, 300px); }
-.portrait-frame { position: relative; overflow: hidden; border-radius: 48% 48% 18px 18px; border: 1px solid rgba(255,255,255,.18); box-shadow: var(--shadow); }
+.portrait-frame { position: relative; overflow: hidden; aspect-ratio: 1; border-radius: 50%; border: 1px solid rgba(255,255,255,.18); box-shadow: var(--shadow); }
 .portrait-frame::after { content: ""; position: absolute; inset: 0; box-shadow: inset 0 0 0 10px rgba(255,255,255,.05); border-radius: inherit; }
-.portrait-frame img { width: 100%; aspect-ratio: 4/5; object-fit: cover; object-position: center 38%; }
+.portrait-frame img { width: 100%; height: 100%; aspect-ratio: 1; object-fit: cover; object-position: center 30%; }
 .portrait-note { position: absolute; right: -20px; bottom: 34px; display: flex; flex-direction: column; min-width: 170px; padding: 14px 18px; color: var(--ink); background: rgba(255,255,255,.94); border-radius: 12px; box-shadow: 0 14px 34px rgba(0,0,0,.18); }
 .portrait-note span { color: var(--muted); font-size: .7rem; text-transform: uppercase; letter-spacing: .12em; }
 .portrait-note strong { font-size: .9rem; }
